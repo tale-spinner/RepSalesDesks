@@ -153,12 +153,12 @@ public class RepSalesDesks extends JFrame {
 		
 		JButton btnRemoveDesk = new JButton("Remove >");
 		btnRemoveDesk.addActionListener(new BtnRemoveDeskListener());
-		btnRemoveDesk.setBounds(224, 151, 115, 25);
+		btnRemoveDesk.setBounds(224, 152, 115, 25);
 		contentPane.add(btnRemoveDesk);
 		
 		JButton btnRemoveAllDesks = new JButton("Remove All >>");
 		btnRemoveAllDesks.addActionListener(new BtnRemoveAllDesksListener());
-		btnRemoveAllDesks.setBounds(224, 176, 115, 25);
+		btnRemoveAllDesks.setBounds(224, 178, 115, 25);
 		contentPane.add(btnRemoveAllDesks);
 
 		
